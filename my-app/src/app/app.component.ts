@@ -8,7 +8,8 @@ import { generate } from 'rxjs';
 })
 export class AppComponent {
   title = 'my-app';
-  name = "Repsavv"
+  name :string  = "Repsavv";
+  age : number = 23 ;
 }
 
 
