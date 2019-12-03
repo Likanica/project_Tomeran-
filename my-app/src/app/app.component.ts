@@ -7,9 +7,7 @@ import { generate } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
-  name :string  = "Repsavv";
-  age : number = 23 ;
+  name: string = "Help";
 }
 
 
