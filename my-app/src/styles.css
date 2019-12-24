@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+.brd {
+    border: 4px dotted black; 
+    background: plum; 
+    padding: 2px; 
+    width: 400px;
+    font-size: 2vw;
+   }
