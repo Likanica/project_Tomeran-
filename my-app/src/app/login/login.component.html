@@ -1,7 +1,13 @@
 <div>
     <form (ngSubmit) = "MakeLogin()">
-        <input type ="text" placeholder = "Enter login" [(ngModel)] = "login" name="login">
-        <input type ="password" placeholder="Enter password" [(ngModel)] = "password" name="password">
-        <input type ="submit" placeholder="Send" value="Sign in">
+        <input type ="text" placeholder = "Enter login" [(ngModel)] = "login" name="login"><br>
+        <input type ="password" placeholder="Enter password" [(ngModel)] = "password" name="password"><br>
+        <input type ="submit" placeholder="Send" value="Sign in">        
     </form>
+    <div *ngIf = "entered">
+        <p>Зачем</p>
+    </div>
+    <div *ngIf = "!!entered">
+
+    </div>
 </div>
