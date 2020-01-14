@@ -9,9 +9,9 @@ const routes: Routes = [
     {path: "about", component: AboutComponent},
     {path: "contact", component: AboutComponent},
     {path:"contacts", component: AboutComponent},
-    {path:"login", component:LoginComponent},
+    {path:"main", component:LoginComponent},
     {path:"", component:MainComponent},
-    {path:"main", component:MainComponent},
+    {path:"fafa", component:MainComponent},
     {path:"**", component:NotFoundComponent},
 ];
 
