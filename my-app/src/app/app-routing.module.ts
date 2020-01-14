@@ -11,7 +11,7 @@ const routes: Routes = [
     {path:"contacts", component: AboutComponent},
     {path:"main", component:LoginComponent},
     {path:"", component:MainComponent},
-    {path:"fafa", component:MainComponent},
+    {path:"father", component:MainComponent},
     {path:"**", component:NotFoundComponent},
 ];
 
